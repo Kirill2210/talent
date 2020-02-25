@@ -18,7 +18,13 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "magnific-popup": "^1.1.0",
+    "mixitup": "^3.3.1",
     "normalize.css": "^8.0.1",
     "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "animate.css": "^3.7.2",
+    "wowjs": "^1.1.3"
   }
 }
