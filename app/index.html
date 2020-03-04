@@ -10,7 +10,7 @@
 </head>
 <body>
 	
-	<header class="header">
+	<header class="header" id="home">
 		<div class="container">
 			<div class="header__inner">
 				<nav>
@@ -21,16 +21,16 @@
 						<div class="list list-3"></div>
 					</label>
 					<ul class="header__menu">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Our work</a></li>
-						<li><a href="#">Our clients</a></li>
-						<li><a href="#">About us</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#home">Главная</a></li>
+						<li><a href="#work">Наши работы</a></li>
+						<li><a href="#clients">Наши клиенты</a></li>
+						<li><a href="#about">О нас</a></li>
+						<li><a href="#contact">Контакты</a></li>
 					</ul>
 				</nav>
 				<div class="header__content">
 					<div class="header__title">
-						We’ve got the talent
+						У нас есть талант
 						<div class="line"></div>
 					</div>
 					<div class="header__text">
@@ -48,7 +48,7 @@
 		<div class="container">
 			<div class="content">
 				<div class="title">
-					Introduction
+					Введение
 					<div class="line"></div>
 				</div>
 				<div class="text">
@@ -59,29 +59,29 @@
 	</section>
 	<section class="pure btn">
 		<div class="container">
-			<button>Pure Creativity.</button>
+			<button>Чистое творчество.</button>
 		</div>
 	</section>
-	<section class="work">
+	<section class="work" id="work">
 		<div class="container">
 			<div class="title">
-				Some of our work
+				Некоторые из наших работ
 				<div class="line"></div>
 			</div>
 			<div class="work__mix">
 				<div class="work__mix-btn">
-					<button type="button" data-filter="all">All</button>
-					<button type="button" data-filter=".branding">Branding</button>
-					<button type="button" data-filter=".design">Web Design</button>
-					<button type="button" data-filter=".ui">Mobile UI</button>
-					<button type="button" data-filter=".illustr">Illustrations</button>
+					<button type="button" data-filter="all">Все</button>
+					<button type="button" data-filter=".branding">Брендинг</button>
+					<button type="button" data-filter=".design">Веб Дизайн</button>
+					<button type="button" data-filter=".ui">Мобильный UI</button>
+					<button type="button" data-filter=".illustr">Иллюстрации</button>
 				</div>
 				<div class="work__items">
 					<a href="#" class="work__item mix branding design all" style="background-image: url(images/work-1.jpg);">
 						<div class="work__item-content">
 							<div class="work__item-box">
 								<div class="work__item-title">
-									Mobile UI
+									Мобильный UI
 								</div>
 								<div class="work__item-text">
 									Google mail
@@ -94,7 +94,7 @@
 						<div class="work__item-content">
 							<div class="work__item-box">
 								<div class="work__item-title">
-									Mobile UI
+									Мобильный UI
 								</div>
 								<div class="work__item-text">
 									Google mail
@@ -107,7 +107,7 @@
 						<div class="work__item-content">
 							<div class="work__item-box">
 								<div class="work__item-title">
-									Mobile UI
+									Мобильный UI
 								</div>
 								<div class="work__item-text">
 									Google mail
@@ -120,7 +120,7 @@
 						<div class="work__item-content">
 							<div class="work__item-box">
 								<div class="work__item-title">
-									Mobile UI
+									Мобильный UI
 								</div>
 								<div class="work__item-text">
 									Google mail
@@ -133,7 +133,7 @@
 						<div class="work__item-content">
 							<div class="work__item-box">
 								<div class="work__item-title">
-									Mobile UI
+									Мобильный UI
 								</div>
 								<div class="work__item-text">
 									Google mail
@@ -146,7 +146,7 @@
 						<div class="work__item-content">
 							<div class="work__item-box">
 								<div class="work__item-title">
-									Mobile UI
+									Мобильный UI
 								</div>
 								<div class="work__item-text">
 									Google mail
@@ -158,19 +158,19 @@
 				</div>
 			</div>
 			<div class="work__btn">
-				<a href="#">Show me more</a>
+				<a href="#">Показать больше</a>
 			</div>
 		</div>
 	</section>
 	<section class="help btn">
 		<div class="container">
-			<button>We’re here to help.</button>
+			<button>Мы здесь, чтобы помочь.</button>
 		</div>
 	</section>
-	<section class="clients">
+	<section class="clients" id="clients">
 		<div class="container">
 			<div class="title">
-				Our clients
+				Наши клиенты
 				<div class="line"></div>
 			</div>
 			<div class="clients__inner">
@@ -182,11 +182,11 @@
 			</div>
 		</div>
 	</section>
-	<section class="about">
+	<section class="about" id="about">
 		<div class="container">
 			<div class="content">
 				<div class="title">
-					About Us
+					О нас
 					<div class="line"></div>
 				</div>
 				<div class="text">
@@ -199,10 +199,10 @@
 						<button class="about__btn"><img src="images/about-btn.svg" alt=""></button>
 						<div class="about__item-box">
 							<div class="about__item-name">
-							Jonh
+							Джон
 							</div>
 							<div class="about__item-work">
-								CEO/Founder
+								CEO
 							</div>
 						</div>
 					</div>
@@ -212,11 +212,10 @@
 							<span class="esc-2"></span>
 						</div>
 						<div class="about__item-text">
-							we are
-							hiring	
+							Мы принимаем на работу	
 							<div class="about__item-line"></div>
 						</div>
-						<button class="about__item-btn">Apply</button>
+						<button class="about__item-btn">Выбрать</button>
 					</div>
 				</div>
 				<div class="about__item" style="background-image: url(images/about-2.jpg);">
@@ -224,10 +223,10 @@
 						<button class="about__btn"><img src="images/about-btn.svg" alt=""></button>
 						<div class="about__item-box">
 							<div class="about__item-name">
-							Jonh
+							Алана
 							</div>
 							<div class="about__item-work">
-								CEO/Founder
+								CEO
 							</div>
 						</div>
 					</div>
@@ -237,11 +236,10 @@
 							<span class="esc-2"></span>
 						</div>
 						<div class="about__item-text">
-							we are
-							hiring	
+							Мы принимаем на работу	
 							<div class="about__item-line"></div>
 						</div>
-						<button class="about__item-btn">Apply</button>
+						<button class="about__item-btn">Выбрать</button>
 					</div>
 				</div>
 				<div class="about__item" style="background-image: url(images/about-3.jpg);">
@@ -249,10 +247,10 @@
 						<button class="about__btn"><img src="images/about-btn.svg" alt=""></button>
 						<div class="about__item-box">
 							<div class="about__item-name">
-							Jonh
+							Лиза
 							</div>
 							<div class="about__item-work">
-								CEO/Founder
+								CEO
 							</div>
 						</div>
 					</div>
@@ -262,11 +260,10 @@
 							<span class="esc-2"></span>
 						</div>
 						<div class="about__item-text">
-							we are
-							hiring	
+							Мы принимаем на работу	
 							<div class="about__item-line"></div>
 						</div>
-						<button class="about__item-btn">Apply</button>
+						<button class="about__item-btn">Выбрать</button>
 					</div>
 				</div>
 				<div class="about__item" style="background-image: url(images/about-1.jpg);">
@@ -274,10 +271,10 @@
 						<button class="about__btn"><img src="images/about-btn.svg" alt=""></button>
 						<div class="about__item-box">
 							<div class="about__item-name">
-							Jonh
+							Джон
 							</div>
 							<div class="about__item-work">
-								CEO/Founder
+								CEO
 							</div>
 						</div>
 					</div>
@@ -287,11 +284,10 @@
 							<span class="esc-2"></span>
 						</div>
 						<div class="about__item-text">
-							we are
-							hiring	
+							Мы принимаем на работу	
 							<div class="about__item-line"></div>
 						</div>
-						<button class="about__item-btn">Apply</button>
+						<button class="about__item-btn">Выбрать</button>
 					</div>
 				</div>
 			</div>
@@ -308,14 +304,14 @@
 		        <source src="https://www.html5rocks.com/en/tutorials/video/basics/Chrome_ImF.webm" type="video/webm">
 		        <source src="https://www.html5rocks.com/en/tutorials/video/basics/Chrome_ImF.ogv" type="video/ogg">
 		      </video>
-   			</div>
+	   			</div>
 		</div>
 	</section>
 	<section class="choose">
 		<div class="container">
 			<div class="content">
 				<div class="title">
-					Why choose us
+					Почему нас выбирают
 					<div class="line"></div>
 				</div>
 				<div class="text">
@@ -328,7 +324,7 @@
 						<img src="images/slide-1.svg" alt="">
 					</div>
 					<div class="slide__item-title">
-						App Design
+						Дизайн приложения
 					</div>
 					<div class="slide__item-text">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -340,7 +336,7 @@
 						<img src="images/slide-2.svg" alt="">
 					</div>
 					<div class="slide__item-title">
-						Responsive Layout
+						Адаптивный макет
 					</div>
 					<div class="slide__item-text">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -352,7 +348,7 @@
 						<img src="images/slide-3.svg" alt="">
 					</div>
 					<div class="slide__item-title">
-						Pixel Perfect Design
+						Дизайн Pixel Perfect
 					</div>
 					<div class="slide__item-text">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -380,12 +376,12 @@
 			</div>
 		</div>
 	</section>
-	<footer class="footer">
+	<footer class="footer" id="contact">
 		<div class="container">
 			<div class="footer__inner">
 			<div class="footer__loc">
 				<div class="footer__title">
-					Our Location
+					Наше расположение
 				</div>
 				<div class="footer__inf">
 					<ul>
@@ -404,10 +400,10 @@
 			</div>
 			<div class="footer__form">
 				<form>
-					<input class="name" type="text" placeholder="Name">
+					<input class="name" type="text" placeholder="Имя">
 					<input class="email" type="text" placeholder="Email">
-					<input class="message" type="text" placeholder="Message">
-					<button class="footer__btn" type="submit">Send</button>
+					<input class="message" type="text" placeholder="Сообщение">
+					<button class="footer__btn" type="submit">Отправить</button>
 				</form>
 			</div>
 			</div>

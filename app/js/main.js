@@ -17,10 +17,8 @@ $('.about__btn').on('click', function(){
     });
 $('.about__item-esc').on('click', function(){
       $(this).parent('.about__item-content2').prev('.about__item-content1').removeClass('active');
-      $(this).parent('.about__item-content1').removeClass('active');
-    }); 
-
-
+      $(this).parent('.about__item-content2').removeClass('active');
+    });
 
 
 new WOW().init();
@@ -35,7 +33,7 @@ var mixer = mixitup('.work__mix');
 
 
     $(function(){
-      $("nav a").mPageScroll2id({
+      $("nav ul li a").mPageScroll2id({
         // offset: ".nav",
         scrollSpeed: 900,
         scrollEasing: "easeInOutExpo",
